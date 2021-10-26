@@ -5,6 +5,9 @@
       location = "group:4.MementoPattern/4.MementoPattern.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:3.SingletonPattern/3.SingletonPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:2.StrategyPattern/2.StrategyPattern.xcodeproj">
    </FileRef>
    <FileRef
