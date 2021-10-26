@@ -8,11 +8,11 @@
 
 ## Strategy Pattern
 
-[Strategy Pattern Document]()
+[Strategy Pattern Document](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/2.Strategy%20Pattern.md)
 
 [Strategy Pattern文档](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/2.Strategy(策略模式).md)
 
 ## Memento Pattern
-[Memento Pattern Document]()
+[Memento Pattern Document](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/3.Memento%20Pattern.md)
 
 [Memento Pattern文档](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/3.Memento(备忘录模式).md)
