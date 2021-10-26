@@ -2,7 +2,7 @@
 
 ## Delegate Pattern
 
-[Delegate Pattern Document]()
+[Delegate Pattern Document](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/1.Delegate%20Pattern.md)
 
 [Delegate Pattern文档](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/1.Delegate(代理模式).md)
 
