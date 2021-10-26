@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:1.DelegatePattern/../3.MementoPattern/3.MementoPattern.xcodeproj">
+      location = "group:4.MementoPattern/4.MementoPattern.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:2.StrategyPattern/2.StrategyPattern.xcodeproj">
