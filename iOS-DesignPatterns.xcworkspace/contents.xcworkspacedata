@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:6.BuilderPattern/6.BuilderPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5.ObserverPattern/5.ObserverPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:4.MementoPattern/4.MementoPattern.xcodeproj">
    </FileRef>
    <FileRef
