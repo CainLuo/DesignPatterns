@@ -12,15 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let burgerFlipper = HamburgerDirector()
-        if let combo1 = try? burgerFlipper.createCombo1() {
-            print("⚠️⚠️⚠️ ------------ Nom nom " + combo1.description + " ------------ ⚠️⚠️⚠️")
+        let burgerFlipper = FamilyDirector()
+        if let combo1 = try? burgerFlipper.createFamily() {
+            print("⚠️⚠️⚠️ ------------ This is a " + combo1.description + " ------------ ⚠️⚠️⚠️")
         }
         
-        if let kittenBurger = try? burgerFlipper.createKittenSpecial() {
-            print("⚠️⚠️⚠️ ------------ Nom nom nom " + kittenBurger.description + " ------------ ⚠️⚠️⚠️")
+        if let kittenBurger = try? burgerFlipper.createNotFamily() {
+            print("⚠️⚠️⚠️ ------------ This is a " + kittenBurger.description + " ------------ ⚠️⚠️⚠️")
         } else {
-            print("⚠️⚠️⚠️ ------------ Sorry, no kitten burgers here... :[ ------------ ⚠️⚠️⚠️")
+            print("⚠️⚠️⚠️ ------------ Sorry, This is not a normal family... :[ ------------ ⚠️⚠️⚠️")
         }
     }
 }

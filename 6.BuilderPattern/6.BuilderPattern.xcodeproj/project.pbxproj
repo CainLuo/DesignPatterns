@@ -12,9 +12,9 @@
 		4DD87A882728FFDB00BC6D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD87A862728FFDB00BC6D4F /* Main.storyboard */; };
 		4DD87A8A2728FFDD00BC6D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD87A892728FFDD00BC6D4F /* Assets.xcassets */; };
 		4DD87A8D2728FFDD00BC6D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD87A8B2728FFDD00BC6D4F /* LaunchScreen.storyboard */; };
-		4DD87A97272901C600BC6D4F /* HamburgerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87A96272901C600BC6D4F /* HamburgerModel.swift */; };
-		4DD87A992729020100BC6D4F /* HamburgerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87A982729020100BC6D4F /* HamburgerBuilder.swift */; };
-		4DD87A9B2729033000BC6D4F /* HamburgerDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87A9A2729033000BC6D4F /* HamburgerDirector.swift */; };
+		4DD87AA3272909A600BC6D4F /* FamilyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87AA2272909A600BC6D4F /* FamilyModel.swift */; };
+		4DD87AA5272909AF00BC6D4F /* FamilyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87AA4272909AF00BC6D4F /* FamilyBuilder.swift */; };
+		4DD87AA7272909B800BC6D4F /* FamilyDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87AA6272909B800BC6D4F /* FamilyDirector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		4DD87A892728FFDD00BC6D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD87A8C2728FFDD00BC6D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD87A8E2728FFDD00BC6D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DD87A96272901C600BC6D4F /* HamburgerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerModel.swift; sourceTree = "<group>"; };
-		4DD87A982729020100BC6D4F /* HamburgerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerBuilder.swift; sourceTree = "<group>"; };
-		4DD87A9A2729033000BC6D4F /* HamburgerDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerDirector.swift; sourceTree = "<group>"; };
+		4DD87AA2272909A600BC6D4F /* FamilyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyModel.swift; sourceTree = "<group>"; };
+		4DD87AA4272909AF00BC6D4F /* FamilyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyBuilder.swift; sourceTree = "<group>"; };
+		4DD87AA6272909B800BC6D4F /* FamilyDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDirector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +71,9 @@
 			children = (
 				4DD87A802728FFDB00BC6D4F /* AppDelegate.swift */,
 				4DD87A842728FFDB00BC6D4F /* ViewController.swift */,
-				4DD87A96272901C600BC6D4F /* HamburgerModel.swift */,
-				4DD87A982729020100BC6D4F /* HamburgerBuilder.swift */,
-				4DD87A9A2729033000BC6D4F /* HamburgerDirector.swift */,
+				4DD87AA2272909A600BC6D4F /* FamilyModel.swift */,
+				4DD87AA4272909AF00BC6D4F /* FamilyBuilder.swift */,
+				4DD87AA6272909B800BC6D4F /* FamilyDirector.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD87A852728FFDB00BC6D4F /* ViewController.swift in Sources */,
-				4DD87A992729020100BC6D4F /* HamburgerBuilder.swift in Sources */,
-				4DD87A9B2729033000BC6D4F /* HamburgerDirector.swift in Sources */,
+				4DD87AA3272909A600BC6D4F /* FamilyModel.swift in Sources */,
+				4DD87AA5272909AF00BC6D4F /* FamilyBuilder.swift in Sources */,
+				4DD87AA7272909B800BC6D4F /* FamilyDirector.swift in Sources */,
 				4DD87A812728FFDB00BC6D4F /* AppDelegate.swift in Sources */,
-				4DD87A97272901C600BC6D4F /* HamburgerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
