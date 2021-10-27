@@ -22,3 +22,15 @@
 [Memento Pattern Document](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/4.Memento%20Pattern.md)
 
 [Memento Pattern文档](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/4.Memento(备忘录模式).md)
+
+## Observer Pattern
+[Observer Pattern Document](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/5.Observer%20Pattern.md)
+
+[Observer Pattern文档](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/5.Observer(观察者模式).md)
+
+## Builder Pattern
+[Builder Pattern Document](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/6.Builder%20Pattern.md)
+
+[Builder Pattern文档](https://github.com/CainLuo/DesignPatterns/blob/main/Documents/6.Builder(建造者模式).md)
+
+
