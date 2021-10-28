@@ -12,6 +12,9 @@
 		4DD87AE227295F3C00BC6D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD87AE027295F3C00BC6D4F /* Main.storyboard */; };
 		4DD87AE427295F3D00BC6D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD87AE327295F3D00BC6D4F /* Assets.xcassets */; };
 		4DD87AE727295F3D00BC6D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD87AE527295F3D00BC6D4F /* LaunchScreen.storyboard */; };
+		4DD87AF5272A51EA00BC6D4F /* GoogleSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87AF4272A51EA00BC6D4F /* GoogleSign.swift */; };
+		4DD87AF7272A52B000BC6D4F /* AppleSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87AF6272A52B000BC6D4F /* AppleSign.swift */; };
+		4DD87AF9272A531B00BC6D4F /* SignAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD87AF8272A531B00BC6D4F /* SignAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4DD87AE327295F3D00BC6D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD87AE627295F3D00BC6D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD87AE827295F3D00BC6D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD87AF4272A51EA00BC6D4F /* GoogleSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSign.swift; sourceTree = "<group>"; };
+		4DD87AF6272A52B000BC6D4F /* AppleSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSign.swift; sourceTree = "<group>"; };
+		4DD87AF8272A531B00BC6D4F /* SignAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		4DD87AEE27295F6000BC6D4F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4DD87AFA272A562000BC6D4F /* Adapters */,
 				4DD87ADA27295F3C00BC6D4F /* AppDelegate.swift */,
 				4DD87ADE27295F3C00BC6D4F /* ViewController.swift */,
 			);
@@ -78,6 +85,16 @@
 				4DD87AE027295F3C00BC6D4F /* Main.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DD87AFA272A562000BC6D4F /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				4DD87AF6272A52B000BC6D4F /* AppleSign.swift */,
+				4DD87AF4272A51EA00BC6D4F /* GoogleSign.swift */,
+				4DD87AF8272A531B00BC6D4F /* SignAdapter.swift */,
+			);
+			path = Adapters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD87AF9272A531B00BC6D4F /* SignAdapter.swift in Sources */,
+				4DD87AF5272A51EA00BC6D4F /* GoogleSign.swift in Sources */,
 				4DD87ADF27295F3C00BC6D4F /* ViewController.swift in Sources */,
+				4DD87AF7272A52B000BC6D4F /* AppleSign.swift in Sources */,
 				4DD87ADB27295F3C00BC6D4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
