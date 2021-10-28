@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/yykj0048/Desktop/Project/DesignPatterns/IteratorPattern/9.IteratorPattern.xcodeproj">
+      location = "group:10.PrototypePattern/10.PrototypePattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:9.IteratorPattern/9.IteratorPattern.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:8.AdapterPattern/8.AdapterPattern.xcodeproj">
