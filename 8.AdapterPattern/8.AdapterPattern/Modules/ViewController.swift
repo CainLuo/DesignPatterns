@@ -9,15 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK: - Properties
     @IBOutlet weak var emailTextFiled: UITextField!
     @IBOutlet weak var passwordTextFiled: UITextField!
     
     let service: SignService = SignAdapter()
 
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+    // MARK: - Actions
     @IBAction func googleSignAction(_ sender: Any) {
         service.login(signType: .google, email: emailTextFiled.text,
                       password: passwordTextFiled.text) { googleUser, token in
