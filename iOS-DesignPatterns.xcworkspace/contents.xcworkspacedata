@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:11.StatePattern/11.StatePattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:10.PrototypePattern/10.PrototypePattern.xcodeproj">
    </FileRef>
    <FileRef
